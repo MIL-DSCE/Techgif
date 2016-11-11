@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <FrameLayout android:background="@color/app_background" android:layout_width="-1" android:layout_height="-2"
+        <FrameLayout android:layout_gravity="30" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="88dp">
+            <ImageView android:layout_gravity="11" android:id="@id/icon_image1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/intro1" />
+            <ImageView android:layout_gravity="11" android:id="@id/icon_image2" android:layout_width="-2" android:layout_height="-2" />
+        </FrameLayout>
+        <android.support.v4.view.ViewPager android:id="@id/intro_view_pager" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:textSize="16dp" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="1" android:id="@id/start_messaging_button" android:background="@drawable/regbtn_states" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="336dp" android:layout_marginRight="10dp" />
+        <LinearLayout android:layout_gravity="51" android:orientation="0" android:id="@id/bottom_pages" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="26dp">
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" />
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="7dp" />
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="7dp" />
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="7dp" />
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="7dp" />
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="7dp" />
+            <FrameLayout android:background="#bbbbbb" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="7dp" />
+        </LinearLayout> />
+</ScrollView>

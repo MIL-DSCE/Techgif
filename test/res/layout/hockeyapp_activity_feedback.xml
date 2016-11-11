@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/hockeyapp_background_white" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_gravity="11" android:id="@id/wrapper_feedback_scroll" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="30" android:orientation="1" android:id="@id/wrapper_feedback" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="@id/input_name" android:layout_width="-1" android:layout_height="-2" android:hint="@string/hockeyapp_feedback_name_hint" android:inputType="4001" style="@style/HockeyApp_SingleLineInputStyle" />
+            <EditText android:id="@id/input_email" android:layout_width="-1" android:layout_height="-2" android:hint="@string/hockeyapp_feedback_email_hint" android:inputType="21" style="@style/HockeyApp_SingleLineInputStyle" />
+            <EditText android:id="@id/input_subject" android:layout_width="-1" android:layout_height="-2" android:hint="@string/hockeyapp_feedback_subject_hint" android:inputType="4031" style="@style/HockeyApp_SingleLineInputStyle" />
+            <EditText android:id="@id/input_message" android:layout_width="-1" android:layout_height="-2" android:minHeight="100dp" android:hint="@string/hockeyapp_feedback_message_hint" style="@style/HockeyApp_EditTextStyle" />
+            <net.hockeyapp.android.views.AttachmentListView android:layout_gravity="800003" android:id="@id/wrapper_attachments" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1" />
+            <Button android:id="@id/button_attachment" android:layout_width="-1" android:layout_height="-2" android:text="@string/hockeyapp_feedback_attachment_button_text" style="@style/HockeyApp_ButtonStyle" />
+            <Button android:id="@id/button_send" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/hockeyapp_feedback_send_button_text" style="@style/HockeyApp_ButtonStyle" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="30" android:orientation="1" android:id="@id/wrapper_messages" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="15sp" android:typeface="0" android:textColor="@color/hockeyapp_text_normal" android:ellipsize="3" android:id="@id/label_last_updated" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/hockeyapp_feedback_last_updated_text" android:singleLine="true" android:shadowColor="@color/hockeyapp_background_white" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <LinearLayout android:layout_gravity="800003" android:orientation="0" android:id="@id/wrapper_messages_buttons" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2">
+            <Button android:gravity="11" android:layout_gravity="1" android:id="@id/button_add_response" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:text="@string/hockeyapp_feedback_response_button_text" android:layout_weight="1.0" style="@style/HockeyApp_ButtonStyle" />
+            <Button android:gravity="11" android:layout_gravity="1" android:id="@id/button_refresh" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginBottom="10dp" android:text="@string/hockeyapp_feedback_refresh_button_text" android:layout_weight="1.0" style="@style/HockeyApp_ButtonStyle" />
+        </LinearLayout>
+        <ListView android:id="@id/list_feedback_messages" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+</LinearLayout>

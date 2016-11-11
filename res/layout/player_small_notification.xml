@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff424242" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@drawable/transparent" />
+    <ImageView android:id="@id/player_album_art" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:scaleType="1" android:layout_centerVertical="true" />
+    <TextView android:textSize="16dp" android:textColor="#ffffffff" android:gravity="33" android:id="@id/player_song_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="64dp" android:layout_marginTop="12dp" android:layout_marginRight="180dp" android:singleLine="true" />
+    <ImageView android:id="@id/player_close" android:background="@drawable/bar_selector_white" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:src="@drawable/ic_close_white" android:scaleType="5" android:layout_alignParentRight="true" />
+    <TextView android:textSize="13dp" android:textColor="#ffc7c7c7" android:id="@id/player_author_name" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="64dp" android:layout_marginTop="33dp" android:layout_marginRight="180dp" android:singleLine="true" />
+    <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-2" android:layout_height="48dp" android:layout_marginRight="40dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ProgressBar android:layout_gravity="11" android:id="@id/player_progress_bar" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="56dp" android:indeterminateDrawable="@drawable/loading_animation" android:indeterminateDuration="1500" />
+        <ImageView android:id="@id/player_previous" android:background="@drawable/bar_selector_white" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/ic_action_previous" android:scaleType="5" />
+        <ImageView android:id="@id/player_pause" android:background="@drawable/bar_selector_white" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/ic_action_pause" android:scaleType="5" />
+        <ImageView android:id="@id/player_play" android:background="@drawable/bar_selector_white" android:visibility="2" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/ic_action_play" android:scaleType="5" />
+        <ImageView android:id="@id/player_next" android:background="@drawable/bar_selector_white" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/ic_action_next" android:scaleType="5" />
+    </LinearLayout>
+</RelativeLayout>

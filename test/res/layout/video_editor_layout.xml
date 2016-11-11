@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="-1" android:layout_height="-1"
+    <FrameLayout android:layout_gravity="30" android:id="@id/video_container" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16dp" android:layout_marginBottom="160dp">
+        <TextureView android:layout_gravity="11" android:id="@id/video_view" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:layout_gravity="11" android:id="@id/play_button" android:layout_width="-1" android:layout_height="-1" android:src="@drawable/video_play" android:scaleType="5" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/control_layout" android:layout_width="-1" android:layout_height="-2">
+        <org.telegram.ui.Components.VideoSeekBarView android:id="@id/video_seekbar" android:background="#77000000" android:layout_width="-1" android:layout_height="36dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" />
+        <org.telegram.ui.Components.VideoTimelineView android:id="@id/video_timeline_view" android:layout_width="-1" android:layout_height="74dp" android:layout_marginTop="36dp" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/info_container" android:background="#ff2d2d2d" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+        <TextView android:textSize="15dp" android:textColor="#f0f0f0" android:id="@id/original_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" />
+        <TextView android:textSize="15dp" android:textColor="#bebebe" android:id="@id/original_size" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" />
+        <TextView android:textSize="15dp" android:textColor="#f0f0f0" android:id="@id/edited_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginTop="10dp" android:layout_marginRight="13dp" />
+        <TextView android:textSize="15dp" android:textColor="#bebebe" android:id="@id/edited_size" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" />
+        <CheckBox android:textSize="15dp" android:textColor="#f0f0f0" android:id="@id/compress_video" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:layout_marginRight="8dp" />
+    </LinearLayout>
+</FrameLayout>

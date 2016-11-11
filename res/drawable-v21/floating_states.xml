@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/header">
+    <item android:drawable="@drawable/floating_m" />
+</ripple>

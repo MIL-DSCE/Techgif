@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="9dp" android:layout_width="-2" android:layout_height="41dp">
+    <TextView android:textSize="16dp" android:textColor="#ff000000" android:gravity="11" android:id="@id/bubble_text_view" android:layout_width="-2" android:layout_height="26dp" />
+</FrameLayout>
